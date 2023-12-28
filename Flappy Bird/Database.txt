@@ -1,0 +1,14 @@
+create database dbflappybird;
+use dbflappybird;
+create table tblscore(Score varchar(6));
+insert into tblscore(Score)value ('0');
+desc tblscore;
+select * from tblscore;
+create table tblcontrols(Controls varchar(8));
+insert into tblcontrols(Controls)value ('keyboard');
+desc tblcontrols;
+select * from tblcontrols;
+create table tblresolution(Resolution varchar(7));
+insert into tblresolution(Resolution)value ('mobile');
+desc tblresolution;
+select * from tblresolution;
